@@ -56,6 +56,7 @@ def validate_settings(settings: Dict[str, Any]) -> Dict[str, Any]:
 DEFAULT_CONFIG = {
   "input_path": "input", # Path where the .mp3 files to edit are
   "output_path": "output", # Relative path where the edied songs will be stores
+  "new_filename_format": "{artist} - {title}", # Name format that the new generated files will have. Leave it as "" or delete this line if you don't want to change the name of your files. Check the read.me for the avalaible params.
   "id3_version": "2.3" # 2.3 or 2.4
 }
 
