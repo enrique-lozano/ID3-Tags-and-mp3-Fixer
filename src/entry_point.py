@@ -75,11 +75,11 @@ def get_new_filename(filename_format:str, current_filename:str, path:str) -> str
                 print(f"\n{bcolors.WARNING}WARN: for file: {current_filename} -> We cannot change the name of the file. Attribute '{key}' is missing in the file metadata. The previous filename will be kept{bcolors.ENDC}")
                 return current_filename
 
-    # this is windows specific (disallowed chars)
+    # this is Windows specific (disallowed chars)
     name_to_return = "".join(char for char in name_to_return if char not in "/?\\*|<>")
 
     # double quotes (") and semi-colons (:) are also disallowed characters but we would
-    # like to retain their equivalents, so they aren't removed in the prior loop
+    # like to retain their equivalents, so they aren't removed
     name_to_return = name_to_return.replace('"', "'").replace(":", "-")
 
     return name_to_return
