@@ -4,7 +4,7 @@ Fix your songs metadata, keep all metadata with the same ID3 version and better 
 
 ## Run it 🚀
 
-To run the project you must have python 3 installed and added to your path. Once this step is done, you just have to clone the project, put the songs you want to edit in the folder called <code>input</code> and put this commands in the windows terminal, in the directory where you have cloned the project
+To run the project you must have python 3 installed and added to your path. Once this step is done, you just have to clone the project, put the songs you want to edit in the folder called <code>input</code> and put this commands in the windows terminal, in the directory where you have cloned the project:
 
 ```
 pip install -r requirements.txt
@@ -28,7 +28,7 @@ In the root folder of the project you will see a folder called <code>settings</c
 
 - **input_path**: Folder from which the mp3 files will be read. Defaults to "input"
 
-- **output_path**: Folder in which the new fixed mp3 files will be downloaded. If this directory does not exist, it will be createdDefaults to "output"
+- **output_path**: Folder in which the new fixed mp3 files will be downloaded. If this directory does not exist, it will be created. Defaults to "output"
 
 - **id3_version**: Version of ID3 to use for the metadata. Check https://en.wikipedia.org/wiki/ID3 for more info
 
