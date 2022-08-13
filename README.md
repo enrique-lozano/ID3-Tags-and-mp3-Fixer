@@ -32,7 +32,7 @@ In the root folder of the project you will see a folder called <code>settings</c
 
 - **id3_version**: Version of ID3 to use for the metadata. Check https://en.wikipedia.org/wiki/ID3 for more info
 
-- **new_filename_format**: Format of the names that the new created files will have. You can specify song attributes in this name by putting them in square brackets. Defaults to "{album} - {title}". Accepted attributes are:
+- **new_filename_format**: Format of the names that the new created files will have. You can specify song attributes in this name by putting them in square brackets. Defaults to "{artist} - {title}". Accepted attributes are:
 
 ```
 artist
