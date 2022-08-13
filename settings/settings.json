@@ -1,0 +1,5 @@
+{
+  "input_path": "input", // Path where the .mp3 files to edit are
+  "output_path": "output", // Relative path where the edied songs will be stores
+  "id3_version": "2.3" // 2.3 or 2.4
+}
